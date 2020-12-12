@@ -1,0 +1,42 @@
+body {
+    background-color: #eee;
+}
+
+#container {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#header {
+    background-color: #999;
+}
+
+#header h1 {
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#form-container {
+    background-color: #aaa;
+    width: 300px;
+}
+
+#form-container form {
+    padding-left: 2px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 275px;
+}
+
+.form-control input, .form-control select {
+    height: 30px;
+    border: none;
+    width: 100%;
+}
+
+

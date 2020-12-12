@@ -1,0 +1,28 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "\"# realtime-chat\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "watch": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoSantosSousa/realtime-chat.git"
+  },
+  "author": "BrunoSantosSousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoSantosSousa/realtime-chat/issues"
+  },
+  "homepage": "https://github.com/BrunoSantosSousa/realtime-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
